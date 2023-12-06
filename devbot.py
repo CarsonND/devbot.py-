@@ -114,8 +114,8 @@ while True:
         print("Location GPS coordinates: " + str(locationLat) + ", " + str(locationLng))
         
         ssAPIGetParameters = { 
-                                "lat": <!!!REPLACEME with latitude data value!!!>, 
-                                "lon": <!!!REPLACEME with longitude data value!!!>
+                                "lat": 38.907192, 
+                                "lon": -77.036873
                               }
 # 9. Provide the URL to the Sunrise/Sunset API.
         r = requests.get("https://api.sunrise-sunset.org/json?", 
